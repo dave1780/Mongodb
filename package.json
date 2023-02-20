@@ -1,6 +1,7 @@
 {
   "name": "node-9aq8bv",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "mongodb": "^5.0.1",
     "mongoose": "^6.9.2",
     "nodemon": "^2.0.20"
