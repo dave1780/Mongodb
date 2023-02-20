@@ -1,8 +1,7 @@
-const { strictEqual } = require("assert");
+require("dotenv").config("./env")
 const mongoose = require("mongoose")
 require("dotenv").config("./env")
-const uri = "mongodb+srv://Dave150:Dave90@cluster1.xu4paq5.mongodb.net/?retrywrites=true&w=majority";
-mongoose.set('strictQuery',true);
+
 
 mongoose.connect(uri,{useNewUrlParser:true,
 useUnifiedTopology:true});
