@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const { resourceLimits } = require('worker_threads');
-const Moduel = require('./user.schema');
+const Moduel = require('./User.schema');
 const newUserCreation = async () => {
   try {
     const newUser = new Moduel({
